@@ -1,5 +1,5 @@
-package appointments.model.service;
+//package appointments.model.service;
 
-public interface NotificacionService {
-    void enviar(Long pacienteId, String mensaje);
-}
+//public interface NotificacionService {
+    //void enviar(Long pacienteId, String mensaje);
+//}
