@@ -5,22 +5,17 @@ import lombok.*;
 
 import java.time.LocalDateTime;
 
-@Entity
-@Table(name="ATENCIONES")
-@Getter
-@Setter
+
+@Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Entity
 public class Atencion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Long pacienteId;
-    private Long profesionalId;
-    private LocalDateTime fechaHora;
-
-    @Enumerated(EnumType.STRING)
-    private EstadoAtencion estado;
-    private String observaciones;
+    private String paciente;
+    private String doctor;
+    private LocalDateTime horaFecha;
 }
