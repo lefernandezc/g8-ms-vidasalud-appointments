@@ -1,4 +1,4 @@
-﻿package appointments.kafka;
+package appointments.kafka;
 
 import appointments.dto.AuditoriaStreamDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;

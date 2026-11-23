@@ -1,4 +1,4 @@
-﻿package appointments.kafka;
+package appointments.kafka;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;

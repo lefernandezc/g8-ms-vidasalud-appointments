@@ -1,4 +1,4 @@
-﻿package appointments.service;
+package appointments.service;
 
 import appointments.dto.AtencionDTO;
 import appointments.dto.CitaEventoDTO;

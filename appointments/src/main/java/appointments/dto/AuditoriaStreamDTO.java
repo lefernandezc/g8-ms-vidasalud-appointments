@@ -1,4 +1,4 @@
-﻿package appointments.dto;
+package appointments.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
