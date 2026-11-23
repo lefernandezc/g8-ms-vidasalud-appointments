@@ -48,7 +48,6 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -76,11 +75,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-	                <dependency>
-                        <groupId>org.springframework.boot</groupId>
-                        <artifactId>spring-boot-starter-kafka</artifactId>
-                </dependency>
-        </dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-kafka</artifactId>
+		</dependency>
+	</dependencies>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -90,11 +90,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-		                <dependency>
-                        <groupId>org.springframework.boot</groupId>
-                        <artifactId>spring-boot-starter-kafka</artifactId>
-                </dependency>
-        </dependencies>
+		</dependencies>
 	</dependencyManagement>
 
 	<build>
@@ -141,6 +137,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
-
